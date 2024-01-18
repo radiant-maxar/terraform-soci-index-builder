@@ -15,7 +15,7 @@ In this example, all images in the `geonode` repository and only the `ubuntu-ser
 
 ```terraform
 module "eks" {
-  source = "github.com/radiant-maxar/terraform-eks"
+  source = "github.com/radiant-maxar/terraform-soci-index-builder"
 
   image_tag_filters = [
      "geonode:*",
